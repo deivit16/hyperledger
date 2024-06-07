@@ -1,0 +1,9 @@
+data-path = "/nodeth3/data"
+genesis-file = "/nodeth3/genesis.json"
+p2p-port = 30304
+bootnodes = ["enode://6ba07c3dc66c64037214c25f98a9d2392f875324bb07c4115a6cad0900a4165703b88de7350fb4ebb2aa75530289f8c2b35c2f275b70d0991ac59ba60ade4c45@127.0.0.1:30303"]
+rpc-http-enabled = true
+rpc-http-host = "0.0.0.0"
+rpc-ws-enabled = true
+graphql-http-enabled = true
+host-allowlist = ["*"]

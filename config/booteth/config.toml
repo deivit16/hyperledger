@@ -1,0 +1,9 @@
+data-path = "/booteth/data"
+genesis-file = "/booteth/genesis.json"
+rpc-http-enabled = true
+rpc-http-host = "0.0.0.0"
+rpc-http-cors-origins = ["all"]
+rpc-http-api = ["ADMIN", "WEB3", "ETH", "NET", "CLIQUE"]
+rpc-ws-enabled = true
+graphql-http-enabled = true
+host-allowlist = ["*"]

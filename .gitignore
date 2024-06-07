@@ -1,0 +1,19 @@
+# Ignorar directorio de datos de Besu
+data/
+
+# Ignorar archivos específicos de los nodos Besu
+# Por ejemplo, si los nodos generan archivos de registro o archivos de base de datos específicos
+# Puedes agregar patrones para ignorar esos archivos aquí
+
+# Ejemplo: Ignorar archivos de registro
+*.log
+
+# Ejemplo: Ignorar archivos de base de datos SQLite
+*.sqlite
+
+# Ignorar archivos generados por Besu
+# Puedes agregar patrones para ignorar archivos específicos generados por Besu aquí
+
+# Ejemplo: Ignorar archivos de claves privadas generadas por Besu
+*.key
+
