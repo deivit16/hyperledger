@@ -1,5 +1,11 @@
-# Ignorar directorio de datos de Besu
-data/
+# Ignorar todos los contenidos dentro del directorio data
+data/*
+
+# No ignorar el directorio data
+!data/
+
+# No ignorar el archivo genesis.json
+!data/genesis.json
 
 # Ignorar archivos específicos de los nodos Besu
 # Por ejemplo, si los nodos generan archivos de registro o archivos de base de datos específicos

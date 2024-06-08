@@ -1,0 +1,39 @@
+{
+  "config": {
+    "chainId": 2018,
+    "berlinBlock": 0,
+    "clique": {
+      "blockperiodseconds": 30,
+      "epochlength": 30000
+    }
+  },
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "difficulty": "0x1",
+  "extraData": "0x00000000000000000000000000000000000000000000000000000000000000008564e49f7539619f5d61a862518c9c70b6c5db3b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "gasLimit": "0x1fffffffffffff",
+  "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "nonce": "0x0",
+  "timestamp": "0x5c51a607",
+  "alloc": {
+    "8564e49f7539619f5d61a862518c9c70b6c5db3b": {
+      "privateKey": "5f2a9a032149177506f0f562164195219ef68a01e6596b2d8012c6e99f4d992e",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "0xad78ebc5ac6200000"
+    },
+    "69cfe39554604bfd2b253923ae559ee18e7821a4": {
+      "privateKey": "12346307fce791281ac2ada424b14cd5c6ccfe4189e546b57af9d697efe06baa",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "90000000000000000000000"
+    },
+    "6895bbd6c378a083ed9778ac6bbce6038c6d1e27": {
+      "privateKey": "a3c08eeae0d8ac5f40e8fff86885357ec2dd375e3993ed129355c3c8b65c084b",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "90000000000000000000000"
+    },
+    "66adf6141b9e9bdc416bc50cc94882e83603f28c": {
+      "privateKey": "65c5fe742ea47eafa48d4418db37a5e70dde71b821742f3db4389bb627152dd7",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "90000000000000000000000"
+    }
+  }
+}
